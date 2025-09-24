@@ -1,4 +1,4 @@
-# 🚀 Personal Portfolio
+<!-- # 🚀 Personal Portfolio
 
 A modern, interactive portfolio website showcasing my journey as a Software Development Engineer. Built with React and featuring smooth animations, responsive design, and a sleek dark theme.
 
@@ -38,7 +38,7 @@ A modern, interactive portfolio website showcasing my journey as a Software Deve
 ![Skills](screenshots/skills.png)
 
 ### Contact Information
-![Contact](screenshots/contact.png)
+![Contact](screenshots/contact.png) -->
 
 ## 🚀 Quick Start
 
