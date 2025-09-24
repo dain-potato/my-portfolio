@@ -28,9 +28,9 @@ const Contact = () => {
     setLoading(true)
 
     const email = form.current.email.value
-    const res = await verifyEmail(email)
+    const res = isValidEmail(email);
     if (!res) {
-      setLoading(false)
+      setLoading(false);
       toast.error('Please enter a valid email address', {
         position: 'bottom-center',
         autoClose: 3500,
@@ -40,8 +40,8 @@ const Contact = () => {
         draggable: true,
         progress: undefined,
         theme: 'dark',
-      })
-      return
+      });
+      return;
     }
 
     let fullName = form.current.name.value
@@ -53,11 +53,12 @@ const Contact = () => {
       firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase()
 
     const templateParams = {
-      firstname: firstName,
+      // firstname: firstName,
       name: fullName,
       subject: subject,
       message: message,
       email: email,
+      time: new Date().toLocaleString(),
     }
 
     emailjs
@@ -102,21 +103,26 @@ const Contact = () => {
       )
   }
 
-  const verifyEmail = async (email) => {
-    let res = await fetch(
-      `https://mailok-email-validation.p.rapidapi.com/verify?email=${email}`,
-      {
-        method: 'GET',
-        headers: {
-          'x-rapidapi-host': process.env.REACT_APP_RAPIDAPI_HOST,
-          'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
-        },
-      }
-    )
+  // simple email validation (regex-based)
+  const isValidEmail = (email) => {
+    return /\S+@\S+\.\S+/.test(email);
+  };
 
-    let data = await res.json()
-    return res.status === 200 && data.status === 'valid'
-  }
+  // const verifyEmail = async (email) => {
+  //   let res = await fetch(
+  //     `https://mailok-email-validation.p.rapidapi.com/verify?email=${email}`,
+  //     {
+  //       method: 'GET',
+  //       headers: {
+  //         'x-rapidapi-host': process.env.REACT_APP_RAPIDAPI_HOST,
+  //         'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
+  //       },
+  //     }
+  //   )
+
+  //   let data = await res.json()
+  //   return res.status === 200 && data.status === 'valid'
+  // }
 
   return (
     <>

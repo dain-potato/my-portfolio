@@ -11,9 +11,9 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link, NavLink } from 'react-router-dom'
 
-import codechefLogo from '../../assets/images/codechef.png'
+// import codechefLogo from '../../assets/images/codechef.png'
 import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/Sudip_logo_white.png'
+// import LogoSubtitle from '../../assets/images/Sudip_logo_white.png'
 
 const Sidebar = () => {
   return (
