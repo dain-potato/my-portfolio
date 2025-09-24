@@ -14,7 +14,7 @@ const Home = () => {
 
   const nameArray = 'atthew'.split('')
   const jobArray = 'Software Engineer'.split('')
-  const interestArray = 'FullStack | DevOps '.split('')
+  const interestArray = 'Frontend | Backend '.split('')
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -56,10 +56,10 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>
+          {/* <h2>
             Streamlining Workflows | Deploying Intelligent Systems | Building
             Scalable Applications
-          </h2>
+          </h2> */}
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

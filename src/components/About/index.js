@@ -2,12 +2,12 @@
 import { useEffect, useState } from 'react'
 
 import {
-  faAws,
-  faDocker,
-  faGitAlt,
-  faGolang,
+  faGithub,
   faJsSquare,
+  faLaravel,
   faPython,
+  faReact,
+  faSquareFigma
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from 'react-loaders'
@@ -39,17 +39,30 @@ const About = () => {
             />
           </h1>
           <p>
-            I’m a DevOps and Full Stack Engineer with over 2 years of
+            I am a Bachelor of Science in Information Technology graduate 
+            from the University of San Carlos with a strong foundation in programming 
+            and software development. During my academic journey, I gained hands-on 
+            experience through projects such as developing a Fixed Asset Management 
+            System for Virginia Foods, built with Laravel, Tailwind CSS, JavaScript, 
+            PHP, and a Django API for predictive maintenance.
+
+            {/* I’m a DevOps and Full Stack Engineer with over 2 years of
             experience, specializing in automating workflows, optimizing CI/CD
             pipelines, and deploying intelligent systems. My expertise spans
             across DevOps, full-stack, blockchain development, and aritificial
-            intelligence, with a strong foundation in security.
+            intelligence, with a strong foundation in security. */}
           </p>
           <p>
-            I’m passionate about solving real-world problems through innovative
+            I enjoy working in collaborative environments where I can contribute my 
+            skills in planning, coding, debugging, and testing to deliver efficient 
+            and scalable software solutions. Passionate about continuous learning, 
+            I am committed to growing as a software engineer while bringing innovative 
+            solutions to real-world challenges.
+
+            {/* I’m passionate about solving real-world problems through innovative
             technology and continuously learning to stay ahead of industry
             trends. Whether it's streamlining infrastructure or building
-            scalable applications, I bring a holistic approach to every project.
+            scalable applications, I bring a holistic approach to every project. */}
           </p>
         </div>
 
@@ -59,19 +72,19 @@ const About = () => {
               <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faAws} color="#F06529" />
+              <FontAwesomeIcon icon={faReact} color="#F06529" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faDocker} color="#28A4D9" />
+              <FontAwesomeIcon icon={faGithub} color="#28A4D9" />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faGolang} color="#5ED4F4" />
+              <FontAwesomeIcon icon={faLaravel} color="#5ED4F4" />
             </div>
             <div className="face5">
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faSquareFigma} color="#EC4D28" />
             </div>
           </div>
         </div>
