@@ -178,7 +178,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="map-wrap">
+        {/* <div className="map-wrap">
           <div className="info-map">
             Sudip Banerjee
             <br />
@@ -195,7 +195,7 @@ const Contact = () => {
               </Popup>
             </Marker>
           </MapContainer>
-        </div>
+        </div> */}
       </div>
       <Loader type="pacman" />
     </>
