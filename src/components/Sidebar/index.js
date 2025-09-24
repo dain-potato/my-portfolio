@@ -66,7 +66,7 @@ const Sidebar = () => {
         <ul>
           <li>
             <a
-              href="https://www.linkedin.com/in/banerjee-sudip/"
+              href="https://www.linkedin.com/in/matthew-dave-desabelle-2bb917324/"
               target="_blank"
               rel="noreferrer"
             >
@@ -75,14 +75,14 @@ const Sidebar = () => {
           </li>
           <li>
             <a
-              href="https://github.com/metal-oopa"
+              href="https://github.com/dain-potato"
               target="_blank"
               rel="noreferrer"
             >
               <FontAwesomeIcon icon={faGithub} color="#b9b9b9" />
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://www.codechef.com/users/metal_oopa"
               target="_blank"
@@ -90,7 +90,7 @@ const Sidebar = () => {
             >
               <img src={codechefLogo} width="24" alt="Codechef" />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>
