@@ -26,7 +26,7 @@ const projects = [
       'Bulk CSV import/export for assets and maintenance data',
       'Custom reports with advanced filters and selectable fields',
       'Responsive UI with secure Laravel backend',
-      'Predictive maintenance with machine learning (Flask API)',
+      'Predictive maintenance with machine learning (Django API)',
     ],
     images: [], // Provision for multiple images
     githubUrl: 'https://github.com/dain-potato/FixedAssetManagementSystem.git', // Private project
