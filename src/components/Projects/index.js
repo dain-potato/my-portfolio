@@ -96,26 +96,26 @@ const projects = [
     liveUrl: null,
     isPrivate: false
   },
-  // {
-  //   id: 5,
-  //   title: '2D Data Visualization Tool',
-  //   description: 'Developed a Python-based 2D plotting tool backed by Flask API for enhanced data visualization and improved decision-making clarity.',
-  //   technologies: ['Python', 'Flask', 'Data Visualization', 'API Development', 'Charts'],
-  //   category: 'Data Visualization',
-  //   status: 'Completed',
-  //   year: '2023',
-  //   company: 'DRDO',
-  //   features: [
-  //     'Interactive 2D plotting',
-  //     'Flask API backend',
-  //     'Real-time data processing',
-  //     'Decision-making insights'
-  //   ],
-  //   images: [],
-  //   githubUrl: null,
-  //   liveUrl: null,
-  //   isPrivate: true
-  // },
+  {
+    id: 5,
+    title: 'URL Shortener',
+    description: 'A web app that shortens long URLs into compact, shareable links using MongoDB and serverless functions.',
+    technologies: ['TypeScript', 'React', 'Vite', 'Tailwind CSS', 'Express', 'Vercel Serverless Functions', 'MongoDB'],
+    category: 'Web Application',
+    status: 'Completed',
+    year: '2025',
+    company: 'Personal Project',
+    features: [
+      'Interactive 2D plotting',
+      'MongoDB backend stores URL mappings',
+      'Serverless API hosted on Vercel',
+      'Frontend built with React and Tailwind CSS'
+    ],
+    images: [],
+    githubUrl: 'https://github.com/dain-potato/url-shortener',
+    liveUrl: 'https://url-shortener-eta-self.vercel.app/',
+    isPrivate: false
+  },
   // {
   //   id: 6,
   //   title: 'IPFS Trading Platform Engine',
