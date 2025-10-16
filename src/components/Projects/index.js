@@ -106,7 +106,7 @@ const projects = [
     year: '2025',
     company: 'Personal Project',
     features: [
-      'Interactive 2D plotting',
+      'Shortens long URLs into custom short codes',
       'MongoDB backend stores URL mappings',
       'Serverless API hosted on Vercel',
       'Frontend built with React and Tailwind CSS'
